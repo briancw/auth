@@ -1,11 +1,8 @@
 # Dependencies
 node_modules
 
-# Packed Modules
-*.tgz
-
 # ENV Files
-*.env
+db.env
 
 # Secrets
 keys.js

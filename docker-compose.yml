@@ -10,9 +10,9 @@ services:
             - "5432:5432"
         volumes:
             - ./db_data:/var/lib/postgresql/data
-    # game-redis:
+    # auth-redis:
     #     image: redis:alpine
-    #     container_name: game-redis
+    #     container_name: auth-redis
     #     restart: always
     #     ports:
     #         - 6379:6379

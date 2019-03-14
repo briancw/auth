@@ -1,0 +1,18 @@
+### Node ###
+# Dependencies
+node_modules
+
+# Packed Modules
+*.tgz
+
+# ENV Files
+*.env
+
+# Secrets
+keys.js
+
+# Mac
+.DS_Store
+
+# Postgres Database
+db_data

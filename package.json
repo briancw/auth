@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancw/auth.git"
+  },
+  "keywords": [],
+  "author": "Brian Whicheloe <brian@whicheloe.us> (https://whicheloe.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancw/auth/issues"
+  },
+  "homepage": "https://github.com/briancw/auth#readme",
+  "dependencies": {
+    "argon2": "^0.21.0",
+    "express": "^4.16.4",
+    "fastify": "^2.0.1",
+    "pg": "^7.8.2",
+    "sequelize": "^5.1.0"
+  }
+}
